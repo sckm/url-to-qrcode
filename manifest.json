@@ -1,0 +1,12 @@
+{
+    "name": "url to QRcode",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "generate QR code",
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
