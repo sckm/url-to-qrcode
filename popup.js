@@ -1,6 +1,6 @@
 (function () {
     chrome.tabs.getSelected(null, function (tab) {
-        document.getElementById('title').innerHTML = tab.title
-        document.getElementById('url').innerHTML = tab.url
+        $("#title").text(tab.title)
+        $("#url").text(tab.url)
     })
 }.call(this))
